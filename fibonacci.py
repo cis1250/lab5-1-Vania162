@@ -35,4 +35,5 @@ def main():
   fib_sequence = generate_Fibonacci_sequence(num_terms)
   print_sequence(fib_sequence)
 
-main()
+if __name__ == "__main__":
+    main()
