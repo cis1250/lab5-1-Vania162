@@ -32,7 +32,7 @@ def print_sequence(sequence):
 
 def main():
   num_terms = get_user_input()
-  fib_sequence = generate_fibonacci(num_terms)
+  fib_sequence = generate_Fibonacci_sequence(num_terms)
   print_sequence(fib_sequence)
 
 main()
