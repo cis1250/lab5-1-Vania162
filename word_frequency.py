@@ -50,9 +50,9 @@ def calculate_frequencies(sentence):
             frequency_list[index] += 1
         else:
             word_list.append(word)
-            freq_list.append(1)
+            frequency_list.append(1)
         
-    return word_list, freq_list
+    return word_list, frequency_list
 
 
 def print_frequencies(words, frequencies):
