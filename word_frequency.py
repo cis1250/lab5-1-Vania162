@@ -44,12 +44,13 @@ def calculate_frequencies(sentence):
     word_list = []
     frequency_list = []
     
-    for word in word_list:
-        index = word_list.index(word)
-        frequency_list[index] += 1
-    else:
-        word_list.append(word)
-        freq_list.append(1)
+    for word in words:
+        if word in word_list:
+            index = word_list.index(word)
+            frequency_list[index] += 1
+        else:
+            word_list.append(word)
+            freq_list.append(1)
         
     return word_list, freq_list
 
